@@ -1,17 +1,16 @@
-import java.util.Scanner;
+import java.util.Arrays;
+import java.util.List;
 
 public class Test {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        try {
-            System.out.print("NHap vao n: ");
-            int n = sc.nextInt();
-        } catch (Exception e) {
-            System.out.println("Lỗi!!!");
-        } finally {
-            System.out.println("Sao cũng được");
-        }
-        System.out.println("Kết thúc!!");
+        int n=5;
+        int a[]=new int[]{2,3,4,5,6};
+        List  b = Arrays.asList (a);
+        System.out.println(b);
+
+
+        
+
 
     }
 
