@@ -2,21 +2,15 @@ package com.datbt2004110039.tuan_02.bt_them;
 
 public class mayTinhTestDrive {
     public static void main(String[] args) {
-        mayTinh thongtin;
-        thongtin = new mayTinh("ASUS");
-        System.out.println("Nhà sản suất: " + thongtin.nhaSanXUat);
+        mayTinh thongtin = new mayTinh();
 
-        System.out.println("--------");
-        thongtin = new mayTinh("ASUS", "Window 10");
-        System.out.println("Nhà sản suất: " + thongtin.nhaSanXUat);
-        System.out.println("Hệ điều hành: " + thongtin.heDieuHanh);
-        System.out.println("--------");
-        thongtin = new mayTinh("ASUS", "Window 10", "16GB", "Intel core i7", 18000000, 3);
-            System.out.println("Nhà sản suất: " + thongtin.nhaSanXUat);
-            System.out.println("Hệ điều hành: " + thongtin.heDieuHanh);
-            System.out.println("Ram:" + thongtin.Ram);
-            System.out.println("CPU:" + thongtin.CPU);
-            System.out.println("Giá:" + thongtin.gia);
-            System.out.println("Năm bảo hành:" + thongtin.namBaoHanh);        
+        thongtin.nhaSanXUat = "ASUS";
+        thongtin.gia = 18000000;
+        thongtin.CPU = "Intel Core i7";
+        thongtin.Ram = " 16 GB " ;
+        thongtin.heDieuHanh= "Window 10";
+        thongtin.namBaoHanh= 3;
+        
+        thongtin.inThongTinMayTInh();
     }
 }

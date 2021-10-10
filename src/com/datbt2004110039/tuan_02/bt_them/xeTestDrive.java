@@ -2,22 +2,14 @@ package com.datbt2004110039.tuan_02.bt_them;
 
 public class xeTestDrive {
     public static void main(String[] args) {
-        xe thongTin;
-        System.out.println("-------");
-        thongTin = new xe("Bùi Tiến Đạt");
-        System.out.println("Tên chủ xe:" + thongTin.tenChuXe);
+        xe thongtin = new xe();
 
-        System.out.println("-------");
-        thongTin = new xe("Bùi Tiến Đạt", "Yamaha");
-        System.out.println("Tên chủ xe:" + thongTin.tenChuXe);
-        System.out.println("Hãng sản xuất:" + thongTin.hangSanXuat);        
+        thongtin.tenChuXe = "Bùi Tiến Đạt";
+        thongtin.dong = "Xe Máy";
+        thongtin.hangSanXuat = "Yamaha";
+        thongtin.dungTichXang = " 4.2 lít ";
+        thongtin.giayPhep = "15646";
 
-        System.out.println("-------");
-        thongTin = new xe("Bùi Tiến Đạt", "Yamaha", "Xe máy", "15648", "4.2 Lít");
-        System.out.println("Tên chủ xe:" + thongTin.tenChuXe);
-        System.out.println("Hãng sản xuất:" + thongTin.hangSanXuat);
-        System.out.println("Dòng xe:" + thongTin.dong);
-        System.out.println("Giấy phép xe:" + thongTin.giayPhep);
-        System.out.println("Dung tích xe:" + thongTin.dungTichXang);
+        thongtin.inThongTinXe();
     }
 }

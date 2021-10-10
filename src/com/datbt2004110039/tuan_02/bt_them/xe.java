@@ -7,20 +7,12 @@ public class xe {
     String giayPhep;
     String dungTichXang;
 
-    xe(String tCX) {
-        tenChuXe = tCX;
-    }
+    void inThongTinXe() {
+        System.out.println("Tên chủ xe:" + tenChuXe);
+        System.out.println("Hãng sản xuất:" + hangSanXuat);
+        System.out.println("Dòng xe:" + dong);
+        System.out.println("Giấy phép xe:" + giayPhep);
+        System.out.println("Dung tích xe:" + dungTichXang);
 
-    xe(String tCX, String hSX) {
-        tenChuXe = tCX;
-        hangSanXuat = hSX;
-    }
-
-    xe(String tCX, String hSX, String d, String gP, String dTX) {
-        tenChuXe = tCX;
-        hangSanXuat = hSX;
-        dong = d;
-        giayPhep = gP;
-        dungTichXang = dTX;
     }
 }

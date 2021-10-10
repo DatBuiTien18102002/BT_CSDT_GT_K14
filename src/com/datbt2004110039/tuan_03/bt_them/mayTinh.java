@@ -7,6 +7,14 @@ public class mayTinh {
     String CPU;
     int gia;
     int namBaoHanh;
+
+    mayTinh(String nSX){
+        nhaSanXUat = nSX;
+    }
+    mayTinh(String nSX , String hDH){
+        nhaSanXUat = nSX;
+        heDieuHanh = hDH ;
+    }
     mayTinh(String nSX,String hDH,String R,String cpu,int g,int nBH){
         nhaSanXUat = nSX;
         heDieuHanh = hDH;
@@ -14,13 +22,5 @@ public class mayTinh {
         CPU = cpu;
         gia = g;
         namBaoHanh = nBH;
-    }
-    void inThongTin(){
-        System.out.println("Nhà sản xuất:" + nhaSanXUat);
-        System.out.println("Hệ điều hành:" + heDieuHanh);
-        System.out.println("Ram:" + Ram);
-        System.out.println("CPU:" + CPU);
-        System.out.println("Giá:" + gia);
-        System.out.println("Năm bảo hành:" + namBaoHanh);
     }
 }

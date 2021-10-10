@@ -1,9 +1,9 @@
 package tuan_04;
 
 public class Dog {
-    int size;
-    String name;
-    String color;
+    public int size;
+    public String name;
+    public String color;
 
     public Dog (){}
 

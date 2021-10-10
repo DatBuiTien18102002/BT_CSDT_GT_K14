@@ -2,23 +2,16 @@ package com.datbt2004110039.tuan_02.bt_them;
 
 public class SachTestDrive {
     public static void main(String[] args) {
-        Sach thongTin;
-        System.out.println("---------");
-        thongTin = new Sach(100000);
-        System.out.println("Giá:" + thongTin.gia);
+        Sach thongtin = new Sach();
 
-        System.out.println("---------");
-        thongTin = new Sach(100000, "Amak Book");
-        System.out.println("Giá:" + thongTin.gia);
-        System.out.println("Nhà xuất bản:" + thongTin.nhaXuatBan);
+        thongtin.gia = 100000;
+        thongtin.giaBan = 150000;
+        thongtin.loai = "Light Novel";
+        thongtin.namXuatBan = 2020;
+        thongtin.nhaXuatBan = "Amak Book";
+        thongtin.soLuong = 2000;
+        
+        thongtin.inThongTinSach();
 
-        System.out.println("---------");
-        thongTin = new Sach(100000, "Amak Book", 2020, 150000, 2000, "Ligh Novel");
-        System.out.println("Giá:" + thongTin.gia);
-        System.out.println("Nhà xuất bản:" + thongTin.nhaXuatBan);
-        System.out.println("Năm xuất bản:" + thongTin.namXuatBan);
-        System.out.println("Giá bán:" + thongTin.giaBan);
-        System.out.println("Số lượng:" + thongTin.soLuong);
-        System.out.println("Loại:" + thongTin.loai);
     }
 }
