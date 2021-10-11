@@ -51,8 +51,7 @@ public class Bai3TestDrive {
                     System.out.println("============Danh sách sản phẩm==========");
                     for (int i = 0; i < sanPham.size(); i++) {
                         Bai3 sp = (Bai3) sanPham.get(i);
-                        System.out.println("Tên sản phẩm:" + sp.ten);
-                        System.out.println("Giá sản phẩm:" + sp.gia);
+                        sp.inThongTin();
                     }
                     break;
                 case 3:

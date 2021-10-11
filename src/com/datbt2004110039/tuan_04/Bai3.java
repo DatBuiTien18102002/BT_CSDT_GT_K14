@@ -8,4 +8,8 @@ public class Bai3 {
         gia= g;
 
     }
+    void inThongTin(){
+        System.out.println("Tên sản phẩm:" + ten);
+        System.out.println("Giá sản phẩm:" + gia);
+    }
 }

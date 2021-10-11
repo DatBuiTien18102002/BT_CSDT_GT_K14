@@ -12,7 +12,8 @@ public class SVGDTestDrive {
         System.out.println("Nhập danh sách đầu tiên");
         System.out.print("Nhập số lượng sinh viên: ");
         int n = sc.nextInt();
-        nhapListSinhVien(listSinhVien, n);
+        SVGD soSV = new SVGD(n);
+        nhapListSinhVien(listSinhVien, soSV);
         int luaChon;
         do {
             System.out.println("===================Menu===================");
@@ -31,33 +32,25 @@ public class SVGDTestDrive {
                     listSinhVien.clear();
                     System.out.print("Nhập số lượng sinh viên: ");
                     n = sc.nextInt();
-                    nhapListSinhVien(listSinhVien, n);
+                    soSV = new SVGD(n);
+                    nhapListSinhVien(listSinhVien, soSV);
                     break;
                 case 2:
                     System.out.println("========================Danh sách sinh viên Gia Định========================");
-                    inListSinhVien(listSinhVien, n);
+                    inListSinhVien(listSinhVien, soSV);
                     System.out.println("============================================================================");
                     break;
                 case 3:
-                    sapxepList(listSinhVien, n);
+                    sapxepList(listSinhVien, soSV);
                     break;
                 case 4:
-                    timSVTheoTen(listSinhVien, n);
+                    timSVTheoTen(listSinhVien, soSV);
                     break;
                 case 5:
-                    suaSV(listSinhVien, n);
+                    suaSV(listSinhVien, soSV);
                     break;
                 case 6:
-                    sc.nextLine();
-                    System.out.print("Nhập tên sinh viên cần xóa : ");
-                    String xoa = sc.nextLine();
-                    for (int i = 0; i < n; i++) {
-                        SVGD sinhVien = (SVGD) listSinhVien.get(i);
-                        if (xoa.equals(sinhVien.hoTen) == true) {
-                            listSinhVien.remove(i);
-                            n--;
-                        }
-                    }
+                    xoaSV(listSinhVien, soSV);
                     break;
 
             }
@@ -65,8 +58,8 @@ public class SVGDTestDrive {
         } while (luaChon != 7);
     }
 
-    public static void nhapListSinhVien(ArrayList<SVGD> listSV, int n) {
-        for (int i = 0; i < n; i++) {
+    public static void nhapListSinhVien(ArrayList<SVGD> listSV, SVGD n) {
+        for (int i = 0; i < n.soSV; i++) {
             Scanner sc = new Scanner(System.in);
             System.out.println("Sinh viên " + (i + 1) + ": ");
             System.out.print("Mã số sinh viên: ");
@@ -94,18 +87,17 @@ public class SVGDTestDrive {
         }
     }
 
-    public static void inListSinhVien(ArrayList<SVGD> listSV, int n) {
+    public static void inListSinhVien(ArrayList<SVGD> listSV, SVGD n) {
         // In danh sách sinh viên
         System.out.printf("%-15s %-20s %-15s %-10s %-20s\n", "Mã Sinh Viên", "Họ và tên", "Ngày sinh", "Điểm",
                 "Học lực");
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n.soSV; i++) {
             SVGD sinhVien = (SVGD) listSV.get(i);
-            System.out.printf("%-15d %-20s %-15s %-10.2f %-20s \n", sinhVien.maSV, sinhVien.hoTen, sinhVien.ngaySinh,
-                    sinhVien.diem, sinhVien.hocLuc);
+            sinhVien.inThongTin();
         }
     }
 
-    public static void sapxepList(ArrayList<SVGD> listSV, int n) {
+    public static void sapxepList(ArrayList<SVGD> listSV, SVGD n) {
         Comparator<SVGD> sosanh = new Comparator<SVGD>() {
             @Override
             public int compare(SVGD o1, SVGD o2) {
@@ -118,24 +110,23 @@ public class SVGDTestDrive {
         System.out.println("===============================================================================");
     }
 
-    public static void timSVTheoTen(ArrayList<SVGD> listSV, int n) {
+    public static void timSVTheoTen(ArrayList<SVGD> listSV, SVGD n) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Nhập tên sinh viên cần tìm : ");
         String tim = sc.nextLine();
         System.out.println("===============================================================================");
         System.out.printf("%-15s %-20s %-15s %-10s %-20s\n", "Mã Sinh Viên", "Họ và tên", "Ngày sinh", "Điểm",
                 "Học lực");
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n.soSV; i++) {
             SVGD sinhVien = (SVGD) listSV.get(i);
             if (tim.equals(sinhVien.hoTen) == true) {
-                System.out.printf("%-15d %-20s %-15s %-10.2f %-20s \n", sinhVien.maSV, sinhVien.hoTen,
-                        sinhVien.ngaySinh, sinhVien.diem, sinhVien.hocLuc);
+                sinhVien.inThongTin();
             }
         }
         System.out.println("===============================================================================");
     }
 
-    public static void suaSV(ArrayList<SVGD> listSV, int n) {
+    public static void suaSV(ArrayList<SVGD> listSV, SVGD n) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Nhập tên sinh viên cần Sửa : ");
         String sua = sc.nextLine();
@@ -149,7 +140,7 @@ public class SVGDTestDrive {
         System.out.print("Lựa chọn:");
         int luaChon = sc.nextInt();
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n.soSV; i++) {
             SVGD sinhVien = (SVGD) listSV.get(i);
             if (sua.equals(sinhVien.hoTen) == true) {
                 switch (luaChon) {
@@ -187,6 +178,18 @@ public class SVGDTestDrive {
                         break;
 
                 }
+            }
+        }
+    }
+    public static void xoaSV(ArrayList<SVGD> listSV, SVGD n){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Nhập tên sinh viên cần xóa : ");
+        String xoa = sc.nextLine();
+        for (int i = 0; i < n.soSV; i++) {
+            SVGD sinhVien = (SVGD) listSV.get(i);
+            if (xoa.equals(sinhVien.hoTen) == true) {
+                listSV.remove(i);
+                n.soSV--;
             }
         }
     }
