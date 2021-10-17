@@ -42,6 +42,8 @@ public class CTMinhHoaMang {
         danhSachDog[2] = dog2;
         danhSachDog[1] = new Dog(6,"nanh bạc","ak ak");
         danhSachDog[2].inThongTin();
+        danhSachDog[1].color = "đen";
+        danhSachDog[1].inThongTin();
     
 
     }
