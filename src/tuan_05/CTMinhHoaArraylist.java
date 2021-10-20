@@ -44,6 +44,8 @@ public class CTMinhHoaArraylist {
         ten.add("Hạnh");
         String s = ten.get(2);
         System.out.println("Tên:" + s);
+        bienTCArrayList.contains("BÙi Tiến Đạt");
+        System.out.println(bienTCArrayList.contains("BÙi Tiến Đạt"));
 
     }
 }

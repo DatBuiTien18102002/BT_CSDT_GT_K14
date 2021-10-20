@@ -6,15 +6,20 @@ public class Bai4 {
     float diem;
     String hocLuc;
 
+    public Bai4() {
+
+    }
+
     public Bai4(String hT, float d, String hL) {
         hoTen = hT;
         diem = d;
         hocLuc = hL;
     }
-    void inThongTin(){
-        System.out.println("Họ tên:"+hoTen);
-        System.out.println("Điểm:"+diem);
-        System.out.println("Học Lực:"+hocLuc);
+    void inThongTin() {
+        System.out.println("Họ tên:" + hoTen);
+        System.out.println("Điểm:" + diem);
+        System.out.println("Học Lực:" + hocLuc);
     }
+
 
 }

@@ -44,6 +44,8 @@ public class CTMinhHoaMang {
         danhSachDog[2].inThongTin();
         danhSachDog[1].color = "đen";
         danhSachDog[1].inThongTin();
+        System.out.println(danhSachDog[1].color.length());
+        danhSachDog[1].color.length();
     
 
     }

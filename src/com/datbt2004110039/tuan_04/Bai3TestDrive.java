@@ -1,5 +1,4 @@
 package com.datbt2004110039.tuan_04;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -8,7 +7,7 @@ import java.util.Scanner;
 public class Bai3TestDrive {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        ArrayList<Bai3> sanPham = new ArrayList<>();
+        HamBai3 sanPham = new HamBai3();
         int luaChon;
         do {
             System.out.println("=====================Menu================");
@@ -22,57 +21,21 @@ public class Bai3TestDrive {
             luaChon = sc.nextInt();
             switch (luaChon) {
                 case 1:
-                    sc.nextLine();
-                    sanPham.clear();
-                    while (true) {
-
-                        System.out.print("Nhập tên sản phẩm:");
-                        String ten = sc.nextLine();
-                        System.out.print("Nhập giá sản phẩm:");
-                        int gia = sc.nextInt();
-                        sc.nextLine();
-                        sanPham.add(new Bai3(ten, gia));
-                        System.out.println("Nhập thêm ?(Y/N)");
-                        String temp = sc.nextLine();
-                        if (temp.equals("N"))
-                            break;
-                    }
+                    sanPham.nhapDS();
                     break;
                 case 2:
-                    Comparator<Bai3> comp = new Comparator<Bai3>() {
-
-                        @Override
-                        public int compare(Bai3 o1, Bai3 o2) {
-                            return Integer.compare(o2.gia, o1.gia);
-                        }
-
-                    };
-                    Collections.sort(sanPham, comp);
-                    System.out.println("============Danh sách sản phẩm==========");
-                    for (int i = 0; i < sanPham.size(); i++) {
-                        Bai3 sp = (Bai3) sanPham.get(i);
-                        sp.inThongTin();
-                    }
+                    sanPham.sapXepDS();
+                    sanPham.xuatDSSV();
                     break;
                 case 3:
                     sc.nextLine();
                     System.out.println("Nhập tên sản phẩm cần xóa:");
                     String tenXoa = sc.nextLine();
-                    for (int i = 0; i < sanPham.size(); i++) {
-                        Bai3 sp = (Bai3) sanPham.get(i);
-                        if (tenXoa.equals(sp.ten))
-                            sanPham.remove(i);
-                    }
+                    sanPham.xoaSP(tenXoa);
                     break;
                 case 4:
-                    int s = 0;
-                    for (int i = 0; i < sanPham.size(); i++) {
-                        Bai3 sp = (Bai3) sanPham.get(i);
-                        s += sp.gia;
 
-                    }
-                    int giaTB =  s / sanPham.size();
-                    System.out.println("Giá trung bình của các sản phẩm là:" + giaTB);
+                    System.out.println("Giá trung bình của các sản phẩm là:" + sanPham.xuatGiaTB());
                     break;
             }
 

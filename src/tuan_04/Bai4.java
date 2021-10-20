@@ -15,11 +15,11 @@ public class Bai4 {
         diem = d;
         hocLuc = hL;
     }
-
     void inThongTin() {
         System.out.println("Họ tên:" + hoTen);
         System.out.println("Điểm:" + diem);
         System.out.println("Học Lực:" + hocLuc);
     }
+
 
 }

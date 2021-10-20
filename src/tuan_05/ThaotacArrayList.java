@@ -32,6 +32,7 @@ public class ThaotacArrayList {
         System.out.println(a.size());
         System.out.println("Vị trí của phần tử Hòa");
         System.out.println(a.indexOf("Hòa"));
+        
 
 
 
