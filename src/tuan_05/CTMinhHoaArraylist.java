@@ -2,7 +2,7 @@ package tuan_05;
 
 import java.util.ArrayList;
 import java.util.List;
-import tuan_02.SinhVien;
+
 import tuan_04.Bai4;
 import tuan_04.Dog;
 

@@ -25,9 +25,8 @@ public class HamSVGD {
     }
 
     void nhapDSSV(){
-
+        Scanner sc = new Scanner(System.in);
         for (int i = 0; i < sLSV; i++) {
-            Scanner sc = new Scanner(System.in);
             System.out.println("Sinh viên " + (i + 1) + ": ");
             System.out.print("Mã số sinh viên: ");
             int maSV = sc.nextInt();
