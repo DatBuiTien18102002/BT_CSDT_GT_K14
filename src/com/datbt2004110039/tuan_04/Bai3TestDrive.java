@@ -1,7 +1,5 @@
 package com.datbt2004110039.tuan_04;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
+
 import java.util.Scanner;
 
 public class Bai3TestDrive {
