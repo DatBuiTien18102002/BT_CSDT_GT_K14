@@ -2,12 +2,12 @@ package com.datbt2004110039.tuan_08.queuetheolinkedlist;
 
 public class taikhoanTestDrive {
     public static void main(String[] args) {
-        MyStack dsTaiKhoan = new MyStack();
+        MyQueue dsTaiKhoan = new MyQueue();
 
         dsTaiKhoan.myPush(new taikhoan("Bùi Tiến Đạt",21456,"4000vnd"));
-        dsTaiKhoan.myPush(new taikhoan("Bùi 7t",21456,"5000vnd"));
-        dsTaiKhoan.myPush(new taikhoan("Bùi T9t",21456,"10000vnd"));
-        dsTaiKhoan.myPush(new taikhoan("Bùi T78ạt",21456,"98000vnd"));
+        dsTaiKhoan.myPush(new taikhoan("Lê THị Tuyết",61456,"5000vnd"));
+        dsTaiKhoan.myPush(new taikhoan("Nguyễn Duy",81456,"10000vnd"));
+        dsTaiKhoan.myPush(new taikhoan("Bùi Như Ý",91456,"98000vnd"));
 
         dsTaiKhoan.intDanhSach();
         

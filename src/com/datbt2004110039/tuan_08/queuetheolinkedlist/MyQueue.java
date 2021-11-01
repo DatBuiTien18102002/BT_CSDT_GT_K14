@@ -1,6 +1,6 @@
 package com.datbt2004110039.tuan_08.queuetheolinkedlist;
 
-public class MyStack {
+public class MyQueue {
     Node head = null;
     Node tail = null;
 
@@ -18,32 +18,17 @@ public class MyStack {
     }
 
     taikhoan myPeek(){
-        return tail.data;
+        return head.data;
     }
 
     taikhoan myPop(){
-        Node before = head;
-        Node current = before.next;
-        taikhoan temp ;
-        if(current == null){
-            temp = head.data;
-            head = null;
-            return temp;
-        }
+        Node current = head;
+        taikhoan temp = current.data;
+        head = current.next;
+        
 
-        while (current != null) {
-            if(current.next == null){
-                temp = current.data;
-                before.next = null;
-                tail = before;
-                return temp;
-            }
-            before = before.next;
-            current = before.next;
 
-        }
-
-        return null;
+        return temp;
     }
 
     void intDanhSach(){

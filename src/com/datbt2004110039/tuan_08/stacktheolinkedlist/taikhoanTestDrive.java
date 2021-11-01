@@ -5,9 +5,9 @@ public class taikhoanTestDrive {
         MyStack dsTaiKhoan = new MyStack();
 
         dsTaiKhoan.myPush(new taikhoan("Bùi Tiến Đạt",21456,"4000vnd"));
-        dsTaiKhoan.myPush(new taikhoan("Bùi 7t",21456,"5000vnd"));
-        dsTaiKhoan.myPush(new taikhoan("Bùi T9t",21456,"10000vnd"));
-        dsTaiKhoan.myPush(new taikhoan("Bùi T78ạt",21456,"98000vnd"));
+        dsTaiKhoan.myPush(new taikhoan("Lê THị Tuyết",61456,"5000vnd"));
+        dsTaiKhoan.myPush(new taikhoan("Nguyễn Duy",81456,"10000vnd"));
+        dsTaiKhoan.myPush(new taikhoan("Bùi Như Ý",91456,"98000vnd"));
 
         dsTaiKhoan.intDanhSach();
         
