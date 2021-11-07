@@ -4,10 +4,9 @@ public class Test {
     public static void main(String[] args) {
 
         Scanner sc=new Scanner(System.in);
-        int n=0;
-        for(int i = 0;i<n;i++){
-
-        }
+        int n=5;
+        int a = n/2;
+        System.out.println("sa = "+a);
         /*Collections.sort(listHoTen,new Comparator<String>(){
 
             @Override
