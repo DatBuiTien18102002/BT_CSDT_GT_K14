@@ -148,6 +148,7 @@ public class HamTheoLinkedList {
         while(current != null){
             if(current.next == null){
                 before.next = null;
+                tail = before;
                 return;
             }
             before = before.next;

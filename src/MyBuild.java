@@ -42,5 +42,13 @@ public class MyBuild {
 
     }while(luaChon != );
     */
+    public static void main(String[] args) {
+        String x = "ase";
+        String y = "Ase";
+
+        if(x.equalsIgnoreCase(y)){ // không phân biệt hoa thường
+            System.out.println("265");
+        }
+    }
 
 }

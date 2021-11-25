@@ -1,4 +1,4 @@
-package com.datbt2004110039.tuan_07.LinkedList_SVGD;
+package doublylinked_SVGD;
 import java.util.Scanner;
 
 
@@ -46,19 +46,11 @@ public class HamSVGD {
         tail = null;
         for (int i = 0; i < sL; i++) {
             System.out.println("Sinh viên " + (i + 1) + ": ");
-            System.out.print("Mã số sinh viên: ");
-            int maSV = sc.nextInt();
-            sc.nextLine();
-            System.out.print("Họ và Tên: ");
-            String hoTen = sc.nextLine();
-            System.out.print("Ngày sinh: ");
-            String ngaySinh = sc.nextLine();
-            System.out.print("Điểm: ");
-            float diem = sc.nextFloat();
-            sc.nextLine();
-            String hocluc = xetHocLuc(diem);
+            SVGD newSV = new SVGD();
+            newSV.nhapThongTin();
+            newSV.hocLuc = xetHocLuc(newSV.diem);
 
-            add(new SVGD(maSV, hoTen, ngaySinh, diem, hocluc));
+            add(newSV);
 
         }
     }
