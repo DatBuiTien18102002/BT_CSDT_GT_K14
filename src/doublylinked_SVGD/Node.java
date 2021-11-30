@@ -22,5 +22,4 @@ public class Node {
         prev = p;
     }
     
-
 }

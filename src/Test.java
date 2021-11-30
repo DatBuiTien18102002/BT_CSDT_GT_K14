@@ -4,14 +4,15 @@ public class Test {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        int n = 5;
-        System.out.print("zsazZs");
+        System.out.print("Nhập : ");
+        int s = sc.nextInt();
+        System.out.print(s);
+        int a = sc.nextInt();
 
-        System.out.print("usazZrs");
-
-        int a = n / 2;
-
-        System.out.print("zZsa = " + a);
+        // int s;
+        // do{
+        //     s = sc.nextInt();
+        // }while(s == 0);
 
     }
 
