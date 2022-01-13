@@ -17,7 +17,8 @@ public class MyBuild {
         System.out.println();
         System.out.println();
         System.out.println();
-        System.out.println();
+        System.out.println("0.Thoat");
+        System.out.print("Lua chon :");
         luaChon = sc.nextInt();
         switch (luaChon) {
             case (1):
@@ -40,7 +41,7 @@ public class MyBuild {
                 break;
         }
 
-    }while(luaChon != );
+    }while(luaChon != 0);
     */
     public static void main(String[] args) {
         String x = "ase";

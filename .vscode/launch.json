@@ -1,0 +1,514 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch testas",
+            "request": "launch",
+            "mainClass": "testas",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Datetest",
+            "request": "launch",
+            "mainClass": "Datetest",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyBuild",
+            "request": "launch",
+            "mainClass": "MyBuild",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tip_vscode",
+            "request": "launch",
+            "mainClass": "Tip_vscode",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch HamTheoArrayListTestDrive",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.kiemtragiuaky.HamTheoArrayListTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch HamTheoLinkedListTestDrive",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.kiemtragiuaky.HamTheoLinkedListTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai1",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_01.Bai1",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai2",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_01.Bai2",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai3",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_01.Bai3",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai4",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_01.Bai4",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai1(1)",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_02.Bai1",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai2(1)",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_02.Bai2",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai3(1)",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_02.Bai3",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai4(1)",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_02.Bai4",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SachTestDrive",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_02.bt_them.SachTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch mayTinhTestDrive",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_02.bt_them.mayTinhTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch nhanvienTestDrive",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_02.bt_them.nhanvienTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch taikhoanTestDrive",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_02.bt_them.taikhoanTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch xeTestDrive",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_02.bt_them.xeTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai1(2)",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_03.Bai1",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai2(2)",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_03.Bai2",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai3(2)",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_03.Bai3",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai4TestDrive",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_03.Bai4TestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SachTestDrive(1)",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_03.bt_them.SachTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch mayTinhTestDrive(1)",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_03.bt_them.mayTinhTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch nhanvienTestDrive(1)",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_03.bt_them.nhanvienTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch taikhoanTestDrive(1)",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_03.bt_them.taikhoanTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch xeTestDrive(1)",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_03.bt_them.xeTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai3TestDrive",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_04.Bai3TestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch bai1",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_04.bai1",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch bai2",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_04.bai2",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SachTestDrive(2)",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_04.bt_them.SachTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch mayTinhTestDrive(2)",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_04.bt_them.mayTinhTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch nhanvienTestDrive(2)",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_04.bt_them.nhanvienTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch taikhoanTestDrive(2)",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_04.bt_them.taikhoanTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch xeTestDrive(2)",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_04.bt_them.xeTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SVGDTestDrive",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_05.bt_them.SVGDTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch bai3TheoMTestDrive",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_06.bt_them.bai3TheoMTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SVGDTestDrive(1)",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_07.LinkedList_SVGD.SVGDTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyLinkedListTestDrive",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_07.MyLinkedListTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch taikhoanTestDrive(3)",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_08.queuetheolinkedlist.taikhoanTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch taikhoanTestDrive(4)",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_08.stacktheolinkedlist.taikhoanTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch AppleTestDrive",
+            "request": "launch",
+            "mainClass": "com.datbt2004110039.tuan_09.AppleTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SVGDTestDrive(2)",
+            "request": "launch",
+            "mainClass": "doublylinked_SVGD.SVGDTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch HamTheoLinkedListTestDrive(1)",
+            "request": "launch",
+            "mainClass": "kiemtragiuaky.HamTheoLinkedListTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch CommodityTestDrive",
+            "request": "launch",
+            "mainClass": "ktm.CommodityTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestDrive",
+            "request": "launch",
+            "mainClass": "ktm.TestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyDoublyLinkedTestDrive",
+            "request": "launch",
+            "mainClass": "testsw.MyDoublyLinkedTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Nhapdulieu",
+            "request": "launch",
+            "mainClass": "tuan_02.Nhapdulieu",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SinhVienTestDrive",
+            "request": "launch",
+            "mainClass": "tuan_02.SinhVienTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChuongTrinhLab2Bai4",
+            "request": "launch",
+            "mainClass": "tuan_03.ChuongTrinhLab2Bai4",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch cowTestDrive",
+            "request": "launch",
+            "mainClass": "tuan_03.cowTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai4TestDrive(1)",
+            "request": "launch",
+            "mainClass": "tuan_04.Bai4TestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch CTMinhHoaMang",
+            "request": "launch",
+            "mainClass": "tuan_04.CTMinhHoaMang",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch CTMinhHoaArraylist",
+            "request": "launch",
+            "mainClass": "tuan_05.CTMinhHoaArraylist",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThaotacArrayList",
+            "request": "launch",
+            "mainClass": "tuan_05.ThaotacArrayList",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch themptvaomang",
+            "request": "launch",
+            "mainClass": "tuan_05.themptvaomang",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch thamchieuJavaTestDrive",
+            "request": "launch",
+            "mainClass": "tuan_06.thamchieuJavaTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyLinkedListTestDrive(1)",
+            "request": "launch",
+            "mainClass": "tuan_07.MyLinkedListTestDrive",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch QueueDemoProgram",
+            "request": "launch",
+            "mainClass": "tuan_08.QueueDemoProgram",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch StackDemoProgram",
+            "request": "launch",
+            "mainClass": "tuan_08.StackDemoProgram",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch noibot",
+            "request": "launch",
+            "mainClass": "tuan_09.noibot",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch sapxepchen",
+            "request": "launch",
+            "mainClass": "tuan_09.sapxepchen",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch sapxepmang",
+            "request": "launch",
+            "mainClass": "tuan_09.sapxepmang",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch timKiem",
+            "request": "launch",
+            "mainClass": "tuan_09.timKiem",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch timkiemtheocaynhiphan",
+            "request": "launch",
+            "mainClass": "tuan_09.timkiemtheocaynhiphan",
+            "projectName": "BT_CSDT_GT_K14_d5a5a46a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test(1)",
+            "request": "launch",
+            "mainClass": "Test"
+        },
+        {
+            "type": "java",
+            "name": "Launch DemoDateJava",
+            "request": "launch",
+            "mainClass": "com.phuoclh12345678.huongdandate.DemoDateJava"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestDrive(1)",
+            "request": "launch",
+            "mainClass": "ktm.TestDrive"
+        },
+        {
+            "type": "java",
+            "name": "Launch Datetest(1)",
+            "request": "launch",
+            "mainClass": "testdate.Datetest"
+        }
+    ]
+}

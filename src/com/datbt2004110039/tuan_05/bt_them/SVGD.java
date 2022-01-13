@@ -20,7 +20,6 @@ public class SVGD{
         soSV = n;
     }
     void inThongTin(){
-        System.out.printf("%-15d %-20s %-15s %-10.2f %-20s \n", maSV, hoTen, ngaySinh,
-        diem,hocLuc);
+        //sysout
     }
 }
